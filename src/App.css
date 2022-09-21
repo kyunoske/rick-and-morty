@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: palegoldenrod;
+  height: 75px;
+}
+
+h1 {
+  margin-top: 10px;
+}
