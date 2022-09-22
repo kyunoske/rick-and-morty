@@ -8,9 +8,9 @@ function CharacterCard(props: Character) {
     return (
         <div>
             <div className="character-card">
-                <h3>
-                    {props.name.substring(0,17)}
-                </h3>
+                <h5>
+                    {props.name.substring(0,30)}
+                </h5>
                 <div>
                     <img src={props.image} />
                 </div>
