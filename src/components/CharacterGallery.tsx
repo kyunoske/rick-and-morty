@@ -12,7 +12,12 @@ function CharacterGallery(props: CharacterGalleryProps) {
     return (
             <div className="cards">
                     {props.characters.map((card, index) => {
-                        return <CharacterCard key={index} name={card.name} image={card.image} status={card.status} />
+                        return <CharacterCard
+                            key={index}
+                            name={card.name}
+                            image={card.image}
+                            status={card.status}
+                        />
                     })}
             </div>
     );
