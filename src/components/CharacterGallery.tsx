@@ -28,10 +28,8 @@ function CharacterGallery(props: CharacterGalleryProps) {
             <div className="cards">
                 {filteredCharacters.map((card, index) => {
                     return <CharacterCard
-                        key={index}
-                        name={card.name}
-                        image={card.image}
-                        status={card.status}
+                        key={card.id}
+                        character={card}
                     />
                 })}
             </div>
